@@ -1,0 +1,19 @@
+---
+
+dependencies: []
+
+galaxy_info:
+  role_name: sysctl
+  author: honomoa
+  description: Manipulates sysctl entries.
+  company: "Moa"
+  license: "license (CC BY-SA 3.0)"
+  min_ansible_version: 2.4
+  platforms:
+  - name: Ubuntu
+    versions:
+    - xenial
+  galaxy_tags:
+    - system
+    - sysctl
+    - limits

@@ -1,0 +1,9 @@
+---
+
+- name: Manipulates sysctl entries 
+  sysctl:
+    name: "{{ item.key }}"
+    value: "{{ item.value }}"
+    state: present
+    reload: yes
+  with_items: "{{ sysctl_entries }}"
